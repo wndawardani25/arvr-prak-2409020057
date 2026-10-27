@@ -4,6 +4,7 @@
 
 - Nama: Winda Wardani
 - NIM: 2409020057
+- Link DEMO: https://wndawardani25.github.io/arvr-prak-2409020057/
 
 ## Deskripsi Project
 
