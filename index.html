@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scene Perkenalan Diri - Winda Wardani</title>
+
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene background="color: #eadfff">
+
+        <!-- Pencahayaan -->
+        <a-entity
+            light="type: ambient; color: #ffffff; intensity: 1.5">
+        </a-entity>
+
+        <a-entity
+            light="type: directional; color: #ffffff; intensity: 2"
+            position="-3 5 2">
+        </a-entity>
+
+        <!-- Lantai -->
+        <a-plane
+            position="0 0 -4"
+            rotation="-90 0 0"
+            width="12"
+            height="12"
+            color="#ffcce6">
+        </a-plane>
+
+        <!-- Langit -->
+        <a-sky color="#eadfff"></a-sky>
+
+        <!-- Kamera -->
+        <a-entity
+            camera
+            position="0 1.6 0"
+            look-controls
+            wasd-controls>
+        </a-entity>
+
+    </a-scene>
+</body>
+</html>
